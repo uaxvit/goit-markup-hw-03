@@ -285,8 +285,11 @@ img {
 
 /* < !--============Our Portfolio==============--> 4*/
 
+.our-team{
+    margin-bottom: 8px;
+}
 .our-portfolio-section {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 .ul-our-portfolio {
     display: flex;
@@ -297,6 +300,13 @@ img {
 .our-portfolio-small-text {
     text-align:left;
     margin: auto;
+}
+.li-portfolio {
+    width: calc((100% - 48px) / 3);
+
+}
+.ul-our-portfolio {
+
 }
 
 /* < !--============Footer==============--> */
