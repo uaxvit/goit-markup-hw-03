@@ -120,25 +120,6 @@ a {
         color: #ffffff;
 }
 
-
-/*max-width: 216px;
-font-weight: 700;
-letter-spacing: 0.02em;
-color: #ffffff;
-margin-left: auto;
-margin-right: auto;
-margin-top: 0;
-margin-bottom: 72px;
-text-align: center;
-font-size: 36px;
-line-height: 40px;
-letter-spacing: 0.02em;
-} */
-
-
-
-
-
 .main-button {
     display: block;
     min-width: 169px;
@@ -167,16 +148,26 @@ letter-spacing: 0.02em;
 }
 
 /* < !--============Feauture==============--> 2*/
-
+.feauture {
+    /*margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: ;
+    position: relative;*/
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+    
 .future-conteiner {
     
+    width: calc((100% - 72px) / 4);
 }
 
 .li-advantages-page {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
     margin-right: 24px;
     margin-right: 0;
     
@@ -188,6 +179,7 @@ letter-spacing: 0.02em;
 .team-list-big,
 .li-big-text,
 .our-portfolio-big-text {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -203,6 +195,10 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 
 /* <!-- ============ Our Team ============== --> 3*/
