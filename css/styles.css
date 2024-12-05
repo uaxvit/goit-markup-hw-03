@@ -26,7 +26,7 @@ a {
 /* Common */
 .container {
     max-width: 1158px;
-    padding: 0 15;
+    padding: 0 15px;
     margin: 0 auto;
 }
 /* < !--============Header==============--> */
@@ -104,6 +104,8 @@ a {
 /* < !--============Order Service==============--> 1*/
 
 .main-text {
+    max-width: 496px;
+    padding: 188px 0;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -112,6 +114,11 @@ a {
         color: #ffffff;
 }
 .main-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -123,6 +130,10 @@ a {
 .main-button:hover,
 .main-button:focus {
     background-color: #404bbf;
+}
+.main-text-container {
+    display: flex;
+    align-items: center;
 }
 
 /* < !--============Feauture==============--> 2*/
