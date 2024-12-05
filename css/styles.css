@@ -103,12 +103,18 @@ a {
 
 /* < !--============Order Service==============--> 1*/
 
+.main-page {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 .main-text {
     max-width: 496px;
-    padding: 188px 0;
+    min-width: 216px;
+    margin-top: 0;
+    margin-bottom: 72px;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07;
+        line-height: 60px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
@@ -136,16 +142,20 @@ letter-spacing: 0.02em;
 .main-button {
     display: block;
     min-width: 169px;
+    max-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #fff;
+        color: #ffffff;
         background-color: #4d5ae5;
         cursor: pointer;
+
 }
 .main-button:hover,
 .main-button:focus {
