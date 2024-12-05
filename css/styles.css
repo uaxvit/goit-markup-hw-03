@@ -246,7 +246,8 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        text-transform: capitalize
+        text-transform: capitalize;
+        margin-bottom: 72px;
 }
 .our-team-list {
     display: flex;
@@ -283,7 +284,9 @@ img {
 
 /* < !--============Our Portfolio==============--> 4*/
 
-
+.our-portfolio-section {
+    padding-bottom: 120px;
+}
 
 /* < !--============Footer==============--> */
 
