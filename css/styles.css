@@ -168,8 +168,18 @@ letter-spacing: 0.02em;
 
 /* < !--============Feauture==============--> 2*/
 
-.advantages-page {
+.future-conteiner {
+    
+}
 
+.li-advantages-page {
+    display: flex;
+    gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-right: 24px;
+    margin-right: 0;
+    
 }
 .li-page {
     background-color: #ffffff;
