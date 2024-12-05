@@ -215,6 +215,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 .team-list-little,
@@ -286,6 +287,16 @@ img {
 
 .our-portfolio-section {
     padding-bottom: 120px;
+}
+.ul-our-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.our-portfolio-big-text,
+.our-portfolio-small-text {
+    text-align:left;
+    margin: auto;
 }
 
 /* < !--============Footer==============--> */
