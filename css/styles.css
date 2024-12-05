@@ -12,16 +12,42 @@ body {
             background-color: #fff;
 }
 /* Reset stiles */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
 ul, ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-h1,h2,h3,h4,h5,h6, p{
+h1,h2,h3,h4,h5,h6,p,ul {
     margin: 0;
+    padding: 0;
+}
+input,
+textarea,
+button {
+    font: inherit;
+}
+button {
+    cursor: pointer;
+    color: currentColor;
+}
+ul {
+    list-style: none;
 }
 a {
     text-decoration: none;
+    outline: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 /* Common */
 .container {
@@ -145,26 +171,10 @@ a {
 .main-text-container {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 /* < !--============Feauture==============--> 2*/
-.feauture {
-    /*margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: ;
-    position: relative;*/
-    padding-top: 120px;
-    padding-bottom: 120px;
-    text-align: center;
-}
-    
-.future-conteiner {
-    
-    width: calc((100% - 72px) / 4);
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -177,12 +187,21 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.li-advantages-page {
+.feauture {
+    padding: 120px 0;
+}
+.company__list {
     display: flex;
     gap: 24px;
-    margin-right: 24px;
-    margin-right: 0;
-    
+}
+.li-advantages-page {
+    width: 264px;
+}
+
+
+
+.future-conteiner {
+    width: calc((100% - 72px) / 4);
 }
 .li-page {
     background-color: #ffffff;
