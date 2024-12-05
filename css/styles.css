@@ -113,6 +113,26 @@ a {
         text-align: center;
         color: #ffffff;
 }
+
+
+/*max-width: 216px;
+font-weight: 700;
+letter-spacing: 0.02em;
+color: #ffffff;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+margin-bottom: 72px;
+text-align: center;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+} */
+
+
+
+
+
 .main-button {
     display: block;
     min-width: 169px;
